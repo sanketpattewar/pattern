@@ -1,0 +1,10 @@
+2019-02-27 13:11:48,413  INFO [main] testclass:27 - facebook launching
+2019-02-27 13:11:48,421 DEBUG [main] testclass:28 - laumnching
+2019-02-27 13:11:48,421 FATAL [main] testclass:29 - it is a fatal message
+2019-02-27 13:11:48,421  WARN [main] testclass:30 - it is a warning message
+2019-02-27 13:11:51,886  INFO [main] testclass:27 - facebook launching
+2019-02-27 13:11:51,886 DEBUG [main] testclass:28 - laumnching
+2019-02-27 13:11:51,887 FATAL [main] testclass:29 - it is a fatal message
+2019-02-27 13:11:51,887  WARN [main] testclass:30 - it is a warning message
+2019-02-27 13:11:58,801 FATAL [main] testclass:37 - it is a fatal message
+2019-02-27 13:11:58,801  WARN [main] testclass:38 - it is a warning message
