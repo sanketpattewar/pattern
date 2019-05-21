@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16789" started-at="2019-02-27T07:41:44Z" finished-at="2019-02-27T07:42:01Z">
+  <suite name="Suite" duration-ms="17295" started-at="2019-05-20T19:04:37Z" finished-at="2019-05-20T19:04:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16789" started-at="2019-02-27T07:41:44Z" finished-at="2019-02-27T07:42:01Z">
-      <class name="facebook.testclass">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:facebook.testclass@56235b8e]" name="Setup" is-config="true" duration-ms="3981" started-at="2019-02-27T07:41:44Z" finished-at="2019-02-27T07:41:48Z">
+    <test name="Test" duration-ms="17295" started-at="2019-05-20T19:04:37Z" finished-at="2019-05-20T19:04:54Z">
+      <class name="com.qa.facebook.com.qa.facebook.testclass">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.facebook.com.qa.facebook.testclass@45afc369]" name="Setup" is-config="true" duration-ms="5842" started-at="2019-05-20T19:04:37Z" finished-at="2019-05-20T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="failtest()[pri:0, instance:facebook.testclass@56235b8e]" name="failtest" duration-ms="13" started-at="2019-02-27T07:41:48Z" finished-at="2019-02-27T07:41:48Z">
+        <test-method status="PASS" signature="failtest()[pri:0, instance:com.qa.facebook.com.qa.facebook.testclass@45afc369]" name="failtest" duration-ms="27" started-at="2019-05-20T19:04:43Z" finished-at="2019-05-20T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:facebook.testclass@56235b8e]" name="TearDown" is-config="true" duration-ms="734" started-at="2019-02-27T07:41:48Z" finished-at="2019-02-27T07:41:49Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.facebook.com.qa.facebook.testclass@45afc369]" name="TearDown" is-config="true" duration-ms="1571" started-at="2019-05-20T19:04:43Z" finished-at="2019-05-20T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:facebook.testclass@56235b8e]" name="Setup" is-config="true" duration-ms="2714" started-at="2019-02-27T07:41:49Z" finished-at="2019-02-27T07:41:51Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.facebook.com.qa.facebook.testclass@45afc369]" name="Setup" is-config="true" duration-ms="3383" started-at="2019-05-20T19:04:44Z" finished-at="2019-05-20T19:04:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="smoketest()[pri:0, instance:facebook.testclass@56235b8e]" name="smoketest" duration-ms="8540" started-at="2019-02-27T07:41:51Z" finished-at="2019-02-27T07:42:00Z">
+        <test-method status="PASS" signature="smoketest()[pri:0, instance:com.qa.facebook.com.qa.facebook.testclass@45afc369]" name="smoketest" duration-ms="5082" started-at="2019-05-20T19:04:48Z" finished-at="2019-05-20T19:04:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smoketest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:facebook.testclass@56235b8e]" name="TearDown" is-config="true" duration-ms="774" started-at="2019-02-27T07:42:00Z" finished-at="2019-02-27T07:42:01Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.facebook.com.qa.facebook.testclass@45afc369]" name="TearDown" is-config="true" duration-ms="1353" started-at="2019-05-20T19:04:53Z" finished-at="2019-05-20T19:04:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- facebook.testclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.qa.facebook.com.qa.facebook.testclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

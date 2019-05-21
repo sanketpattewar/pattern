@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[aftersuit]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87737" started-at="2019-04-25T13:46:32Z" finished-at="2019-04-25T13:48:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87737" started-at="2019-04-25T13:46:32Z" finished-at="2019-04-25T13:48:00Z">
+      <class name="selenium_intterview.validation">
+        <test-method status="PASS" signature="setup()[pri:1, instance:selenium_intterview.validation@1786dec2]" name="setup" duration-ms="11352" started-at="2019-04-25T13:46:32Z" finished-at="2019-04-25T13:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup1()[pri:2, instance:selenium_intterview.validation@1786dec2]" name="setup1" duration-ms="6643" started-at="2019-04-25T13:46:44Z" finished-at="2019-04-25T13:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method status="PASS" signature="linktest()[pri:3, instance:selenium_intterview.validation@1786dec2]" name="linktest" duration-ms="1057" started-at="2019-04-25T13:46:50Z" finished-at="2019-04-25T13:46:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[aftersuit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- linktest -->
+        <test-method status="PASS" signature="haucuscu()[pri:5, instance:selenium_intterview.validation@1786dec2]" name="haucuscu" duration-ms="15809" started-at="2019-04-25T13:46:51Z" finished-at="2019-04-25T13:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- haucuscu -->
+        <test-method status="PASS" signature="robotclasss()[pri:6, instance:selenium_intterview.validation@1786dec2]" name="robotclasss" duration-ms="25401" started-at="2019-04-25T13:47:07Z" finished-at="2019-04-25T13:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- robotclasss -->
+        <test-method status="PASS" signature="abc()[pri:7, instance:selenium_intterview.validation@1786dec2]" name="abc" duration-ms="16393" started-at="2019-04-25T13:47:32Z" finished-at="2019-04-25T13:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method status="PASS" signature="colourcheck()[pri:8, instance:selenium_intterview.validation@1786dec2]" name="colourcheck" duration-ms="11034" started-at="2019-04-25T13:47:49Z" finished-at="2019-04-25T13:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colourcheck -->
+      </class> <!-- selenium_intterview.validation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

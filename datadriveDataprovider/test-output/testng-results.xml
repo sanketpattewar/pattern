@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47205" started-at="2019-05-08T13:04:16Z" finished-at="2019-05-08T13:05:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47205" started-at="2019-05-08T13:04:16Z" finished-at="2019-05-08T13:05:03Z">
+      <class name="datadriveDataprovider.excelhandling">
+        <test-method status="PASS" signature="testfacebook(java.lang.String, java.lang.String)[pri:0, instance:datadriveDataprovider.excelhandling@46d56d67]" name="testfacebook" duration-ms="10071" started-at="2019-05-08T13:04:16Z" data-provider="facebook" finished-at="2019-05-08T13:04:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohankotalwar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sangmeshwar123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfacebook -->
+        <test-method status="PASS" signature="testfacebook(java.lang.String, java.lang.String)[pri:0, instance:datadriveDataprovider.excelhandling@46d56d67]" name="testfacebook" duration-ms="9425" started-at="2019-05-08T13:04:26Z" data-provider="facebook" finished-at="2019-05-08T13:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohankotalwar7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sangmeshwar1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfacebook -->
+        <test-method status="PASS" signature="testfacebook(java.lang.String, java.lang.String)[pri:0, instance:datadriveDataprovider.excelhandling@46d56d67]" name="testfacebook" duration-ms="8732" started-at="2019-05-08T13:04:36Z" data-provider="facebook" finished-at="2019-05-08T13:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cba1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfacebook -->
+        <test-method status="PASS" signature="testfacebook(java.lang.String, java.lang.String)[pri:0, instance:datadriveDataprovider.excelhandling@46d56d67]" name="testfacebook" duration-ms="8905" started-at="2019-05-08T13:04:45Z" data-provider="facebook" finished-at="2019-05-08T13:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cba2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfacebook -->
+        <test-method status="PASS" signature="testfacebook(java.lang.String, java.lang.String)[pri:0, instance:datadriveDataprovider.excelhandling@46d56d67]" name="testfacebook" duration-ms="9306" started-at="2019-05-08T13:04:53Z" data-provider="facebook" finished-at="2019-05-08T13:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cba3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfacebook -->
+      </class> <!-- datadriveDataprovider.excelhandling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

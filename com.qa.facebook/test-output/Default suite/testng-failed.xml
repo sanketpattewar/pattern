@@ -6,7 +6,7 @@
       <class name="facebook.testclass">
         <methods>
           <include name="TearDown"/>
-          <include name="smoketest"/>
+          <include name="failtest"/>
           <include name="Setup"/>
         </methods>
       </class> <!-- facebook.testclass -->

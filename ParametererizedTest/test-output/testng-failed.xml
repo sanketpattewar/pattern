@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Browsername" value="chrome"/>
+    <parameter name="Username" value="rohankotalwar@gmail.com"/>
+    <parameter name="Password" value="sangmeshwar123"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="parameterisation.testNGparameterisation">
+        <methods>
+          <include name="radioOneWay"/>
+          <include name="radio_RoundTrip"/>
+          <include name="spicejettesting"/>
+          <include name="titlecheck"/>
+          <include name="logintest" invocation-numbers="0"/>
+          <include name="radiobuttonclicking"/>
+          <include name="urlecheck"/>
+        </methods>
+      </class> <!-- parameterisation.testNGparameterisation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
