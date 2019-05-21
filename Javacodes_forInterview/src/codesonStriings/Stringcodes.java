@@ -6,6 +6,7 @@ public class Stringcodes {
 		System.out.println("hello");
 
 		System.out.println("hello");
+		System.out.println("hi");
 	}
 
 }
