@@ -1,47 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[aftersuit]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="87737" started-at="2019-04-25T13:46:32Z" finished-at="2019-04-25T13:48:00Z">
+  <suite name="Default suite" duration-ms="51175" started-at="2019-05-21T11:55:46Z" finished-at="2019-05-21T11:56:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="87737" started-at="2019-04-25T13:46:32Z" finished-at="2019-04-25T13:48:00Z">
-      <class name="selenium_intterview.validation">
-        <test-method status="PASS" signature="setup()[pri:1, instance:selenium_intterview.validation@1786dec2]" name="setup" duration-ms="11352" started-at="2019-04-25T13:46:32Z" finished-at="2019-04-25T13:46:44Z">
+    <test name="Default test" duration-ms="51175" started-at="2019-05-21T11:55:46Z" finished-at="2019-05-21T11:56:37Z">
+      <class name="selenium_intterview.Hashmap1">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:selenium_intterview.Hashmap1@59e5ddf]" name="Setup" is-config="true" duration-ms="13719" started-at="2019-05-21T11:55:46Z" finished-at="2019-05-21T11:55:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup1()[pri:2, instance:selenium_intterview.validation@1786dec2]" name="setup1" duration-ms="6643" started-at="2019-04-25T13:46:44Z" finished-at="2019-04-25T13:46:50Z">
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="loginfacebook()[pri:0, instance:selenium_intterview.Hashmap1@59e5ddf]" name="loginfacebook" duration-ms="35063" started-at="2019-05-21T11:55:59Z" finished-at="2019-05-21T11:56:34Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ (2) Facebook] but found [(2) Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ (2) Facebook] but found [(2) Facebook]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at selenium_intterview.Hashmap1.loginfacebook(Hashmap1.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="linktest()[pri:3, instance:selenium_intterview.validation@1786dec2]" name="linktest" duration-ms="1057" started-at="2019-04-25T13:46:50Z" finished-at="2019-04-25T13:46:51Z">
-          <reporter-output>
-            <line>
-              <![CDATA[aftersuit]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- linktest -->
-        <test-method status="PASS" signature="haucuscu()[pri:5, instance:selenium_intterview.validation@1786dec2]" name="haucuscu" duration-ms="15809" started-at="2019-04-25T13:46:51Z" finished-at="2019-04-25T13:47:07Z">
+        </test-method> <!-- loginfacebook -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:selenium_intterview.Hashmap1@59e5ddf]" name="TearDown" is-config="true" duration-ms="2331" started-at="2019-05-21T11:56:34Z" finished-at="2019-05-21T11:56:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- haucuscu -->
-        <test-method status="PASS" signature="robotclasss()[pri:6, instance:selenium_intterview.validation@1786dec2]" name="robotclasss" duration-ms="25401" started-at="2019-04-25T13:47:07Z" finished-at="2019-04-25T13:47:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- robotclasss -->
-        <test-method status="PASS" signature="abc()[pri:7, instance:selenium_intterview.validation@1786dec2]" name="abc" duration-ms="16393" started-at="2019-04-25T13:47:32Z" finished-at="2019-04-25T13:47:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abc -->
-        <test-method status="PASS" signature="colourcheck()[pri:8, instance:selenium_intterview.validation@1786dec2]" name="colourcheck" duration-ms="11034" started-at="2019-04-25T13:47:49Z" finished-at="2019-04-25T13:48:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- colourcheck -->
-      </class> <!-- selenium_intterview.validation -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- selenium_intterview.Hashmap1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_intterview.validation">
+      <class name="selenium_intterview.Hashmap1">
         <methods>
-          <include name="colourcheck"/>
+          <include name="loginfacebook"/>
+          <include name="TearDown"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- selenium_intterview.validation -->
+      </class> <!-- selenium_intterview.Hashmap1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

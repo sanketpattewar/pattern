@@ -165,10 +165,9 @@ L1.addFirst("john");
  map.put(104,"rajesh");
  
  System.out.println(map);
- 
+
  for(Map.Entry a :map.entrySet()) {
-	 System.out.println(a.getKey()+ ""+ a.getValue());
-	 
+	 System.out.println(a.getKey()+ " "+ a.getValue());
 	 
  }
  
