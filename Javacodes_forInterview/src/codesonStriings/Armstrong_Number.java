@@ -28,6 +28,7 @@ public class Armstrong_Number {
 		        	 System.out.println("**number is not amstrong number**");
 		         }
 		
+		         System.out.println("hi");
     		       
 		
 	}
