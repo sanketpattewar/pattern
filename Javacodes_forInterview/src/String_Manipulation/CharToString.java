@@ -6,9 +6,9 @@ public class CharToString {
 		
 		char[] charArray = {'J', 'A', 'V', 'A' };
 		
-		String text = new String(charArray);
+		String text1 = new String(charArray);
 		
-		System.out.println(text);
+		System.out.println(text1);
 
 	}
 
