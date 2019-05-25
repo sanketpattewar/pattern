@@ -1,0 +1,334 @@
+2019-05-21 00:34:39,058 DEBUG [Forwarding newSession on session null to remote] RequestAddCookies:122 - CookieSpec selected: default
+2019-05-21 00:34:39,073 DEBUG [Forwarding newSession on session null to remote] RequestAuthCache:76 - Auth cache not set in the context
+2019-05-21 00:34:39,075 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:46606][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-05-21 00:34:39,095 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:46606][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:39,098 DEBUG [Forwarding newSession on session null to remote] MainClientExec:234 - Opening connection {}->http://localhost:46606
+2019-05-21 00:34:39,099 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:138 - Connecting to localhost/127.0.0.1:46606
+2019-05-21 00:34:39,101 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:145 - Connection established 127.0.0.1:51299<->127.0.0.1:46606
+2019-05-21 00:34:39,102 DEBUG [Forwarding newSession on session null to remote] DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-05-21 00:34:39,102 DEBUG [Forwarding newSession on session null to remote] MainClientExec:255 - Executing request POST /session HTTP/1.1
+2019-05-21 00:34:39,103 DEBUG [Forwarding newSession on session null to remote] MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-21 00:34:39,103 DEBUG [Forwarding newSession on session null to remote] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-21 00:34:39,105 DEBUG [Forwarding newSession on session null to remote] headers:135 - http-outgoing-0 >> POST /session HTTP/1.1
+2019-05-21 00:34:39,106 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-05-21 00:34:39,106 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-0 >> Content-Length: 317
+2019-05-21 00:34:39,106 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-0 >> Host: localhost:46606
+2019-05-21 00:34:39,106 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-05-21 00:34:39,108 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-05-21 00:34:39,109 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-05-21 00:34:39,109 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2019-05-21 00:34:39,109 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:39,110 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 >> "Content-Length: 317[\r][\n]"
+2019-05-21 00:34:39,110 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 >> "Host: localhost:46606[\r][\n]"
+2019-05-21 00:34:39,110 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-21 00:34:39,111 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-05-21 00:34:39,111 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-21 00:34:39,111 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-05-21 00:34:39,112 DEBUG [Forwarding newSession on session null to remote] wire:86 - http-outgoing-0 >> "{"capabilities": {"desiredCapabilities": {"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"},"requiredCapabilities": {}},"desiredCapabilities": {"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"},"requiredCapabilities": {}}"
+2019-05-21 00:34:43,192 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-21 00:34:43,193 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 << "Content-Length:888[\r][\n]"
+2019-05-21 00:34:43,194 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:43,194 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-05-21 00:34:43,195 DEBUG [Forwarding newSession on session null to remote] wire:86 - http-outgoing-0 << "{"sessionId":"02389f26c4d9da5183d15a979ff41fd5","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)","userDataDir":"C:\\Users\\Rohan\\AppData\\Local\\Temp\\scoped_dir8184_30940"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:51300"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"74.0.3729.157","webStorageEnabled":true}}"
+2019-05-21 00:34:43,201 DEBUG [Forwarding newSession on session null to remote] headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-05-21 00:34:43,202 DEBUG [Forwarding newSession on session null to remote] headers:127 - http-outgoing-0 << Content-Length:888
+2019-05-21 00:34:43,202 DEBUG [Forwarding newSession on session null to remote] headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-05-21 00:34:43,210 DEBUG [Forwarding newSession on session null to remote] MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-21 00:34:43,219 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:46606] can be kept alive indefinitely
+2019-05-21 00:34:43,220 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:46606][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:43,274  INFO [main] testclass:25 - facebook launching
+2019-05-21 00:34:43,275 DEBUG [main] testclass:26 - laumnching
+2019-05-21 00:34:43,275 FATAL [main] testclass:27 - it is a fatal message
+2019-05-21 00:34:43,276  WARN [main] testclass:28 - it is a warning message
+2019-05-21 00:34:43,313 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] RequestAddCookies:122 - CookieSpec selected: default
+2019-05-21 00:34:43,314 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] RequestAuthCache:76 - Auth cache not set in the context
+2019-05-21 00:34:43,315 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:46606][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:43,316 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:46606][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:43,316 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] MainClientExec:207 - Stale connection check
+2019-05-21 00:34:43,318 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-05-21 00:34:43,319 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-05-21 00:34:43,319 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] MainClientExec:255 - Executing request DELETE /session/02389f26c4d9da5183d15a979ff41fd5 HTTP/1.1
+2019-05-21 00:34:43,320 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-21 00:34:43,320 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-21 00:34:43,321 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] headers:135 - http-outgoing-0 >> DELETE /session/02389f26c4d9da5183d15a979ff41fd5 HTTP/1.1
+2019-05-21 00:34:43,321 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] headers:138 - http-outgoing-0 >> Host: localhost:46606
+2019-05-21 00:34:43,322 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-05-21 00:34:43,323 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-05-21 00:34:43,324 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-05-21 00:34:43,325 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 >> "DELETE /session/02389f26c4d9da5183d15a979ff41fd5 HTTP/1.1[\r][\n]"
+2019-05-21 00:34:43,325 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 >> "Host: localhost:46606[\r][\n]"
+2019-05-21 00:34:43,326 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-21 00:34:43,326 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-05-21 00:34:43,327 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-21 00:34:43,327 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-05-21 00:34:43,449 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-21 00:34:43,450 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-05-21 00:34:43,450 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:43,450 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-05-21 00:34:43,451 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] wire:86 - http-outgoing-0 << "{"sessionId":"02389f26c4d9da5183d15a979ff41fd5","status":0,"value":null}"
+2019-05-21 00:34:43,451 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-05-21 00:34:43,452 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] headers:127 - http-outgoing-0 << Content-Length:72
+2019-05-21 00:34:43,452 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-05-21 00:34:43,453 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-21 00:34:43,454 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:46606] can be kept alive indefinitely
+2019-05-21 00:34:43,454 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:46606][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:43,461 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 0 SECONDS
+2019-05-21 00:34:43,463 DEBUG [Forwarding quit on session 02389f26c4d9da5183d15a979ff41fd5 to remote] DefaultManagedHttpClientConnection:81 - http-outgoing-0: Close connection
+2019-05-21 00:34:45,410 DEBUG [Forwarding newSession on session null to remote] RequestAddCookies:122 - CookieSpec selected: default
+2019-05-21 00:34:45,412 DEBUG [Forwarding newSession on session null to remote] RequestAuthCache:76 - Auth cache not set in the context
+2019-05-21 00:34:45,412 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:32919][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-05-21 00:34:45,414 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:32919][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:45,415 DEBUG [Forwarding newSession on session null to remote] MainClientExec:234 - Opening connection {}->http://localhost:32919
+2019-05-21 00:34:45,416 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:138 - Connecting to localhost/127.0.0.1:32919
+2019-05-21 00:34:45,420 DEBUG [Forwarding newSession on session null to remote] DefaultHttpClientConnectionOperator:145 - Connection established 127.0.0.1:51311<->127.0.0.1:32919
+2019-05-21 00:34:45,420 DEBUG [Forwarding newSession on session null to remote] DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-05-21 00:34:45,422 DEBUG [Forwarding newSession on session null to remote] MainClientExec:255 - Executing request POST /session HTTP/1.1
+2019-05-21 00:34:45,424 DEBUG [Forwarding newSession on session null to remote] MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-21 00:34:45,424 DEBUG [Forwarding newSession on session null to remote] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-21 00:34:45,426 DEBUG [Forwarding newSession on session null to remote] headers:135 - http-outgoing-1 >> POST /session HTTP/1.1
+2019-05-21 00:34:45,427 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-05-21 00:34:45,428 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-1 >> Content-Length: 317
+2019-05-21 00:34:45,429 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-1 >> Host: localhost:32919
+2019-05-21 00:34:45,429 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-05-21 00:34:45,429 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-05-21 00:34:45,430 DEBUG [Forwarding newSession on session null to remote] headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-05-21 00:34:45,432 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 >> "POST /session HTTP/1.1[\r][\n]"
+2019-05-21 00:34:45,432 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:45,433 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 >> "Content-Length: 317[\r][\n]"
+2019-05-21 00:34:45,435 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 >> "Host: localhost:32919[\r][\n]"
+2019-05-21 00:34:45,435 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-21 00:34:45,435 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-05-21 00:34:45,436 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-21 00:34:45,436 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-05-21 00:34:45,437 DEBUG [Forwarding newSession on session null to remote] wire:86 - http-outgoing-1 >> "{"capabilities": {"desiredCapabilities": {"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"},"requiredCapabilities": {}},"desiredCapabilities": {"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"},"requiredCapabilities": {}}"
+2019-05-21 00:34:48,231 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-21 00:34:48,233 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 << "Content-Length:888[\r][\n]"
+2019-05-21 00:34:48,234 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:48,235 DEBUG [Forwarding newSession on session null to remote] wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-05-21 00:34:48,236 DEBUG [Forwarding newSession on session null to remote] wire:86 - http-outgoing-1 << "{"sessionId":"037d789d37599e3c9a8962fa4d0f3ff1","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)","userDataDir":"C:\\Users\\Rohan\\AppData\\Local\\Temp\\scoped_dir8544_30145"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:51312"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"74.0.3729.157","webStorageEnabled":true}}"
+2019-05-21 00:34:48,237 DEBUG [Forwarding newSession on session null to remote] headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-05-21 00:34:48,238 DEBUG [Forwarding newSession on session null to remote] headers:127 - http-outgoing-1 << Content-Length:888
+2019-05-21 00:34:48,240 DEBUG [Forwarding newSession on session null to remote] headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-05-21 00:34:48,241 DEBUG [Forwarding newSession on session null to remote] MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-21 00:34:48,242 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:32919] can be kept alive indefinitely
+2019-05-21 00:34:48,243 DEBUG [Forwarding newSession on session null to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:48,260  INFO [main] testclass:25 - facebook launching
+2019-05-21 00:34:48,262 DEBUG [main] testclass:26 - laumnching
+2019-05-21 00:34:48,263 FATAL [main] testclass:27 - it is a fatal message
+2019-05-21 00:34:48,264  WARN [main] testclass:28 - it is a warning message
+2019-05-21 00:34:48,273 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAddCookies:122 - CookieSpec selected: default
+2019-05-21 00:34:48,273 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAuthCache:76 - Auth cache not set in the context
+2019-05-21 00:34:48,273 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:48,273 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:32919][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:48,274 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:207 - Stale connection check
+2019-05-21 00:34:48,276 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-05-21 00:34:48,276 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-05-21 00:34:48,276 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:255 - Executing request POST /session/037d789d37599e3c9a8962fa4d0f3ff1/url HTTP/1.1
+2019-05-21 00:34:48,277 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-21 00:34:48,277 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-21 00:34:48,278 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:135 - http-outgoing-1 >> POST /session/037d789d37599e3c9a8962fa4d0f3ff1/url HTTP/1.1
+2019-05-21 00:34:48,278 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-05-21 00:34:48,279 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Content-Length: 33
+2019-05-21 00:34:48,279 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Host: localhost:32919
+2019-05-21 00:34:48,280 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-05-21 00:34:48,281 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-05-21 00:34:48,281 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-05-21 00:34:48,282 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "POST /session/037d789d37599e3c9a8962fa4d0f3ff1/url HTTP/1.1[\r][\n]"
+2019-05-21 00:34:48,282 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:48,283 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Content-Length: 33[\r][\n]"
+2019-05-21 00:34:48,284 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Host: localhost:32919[\r][\n]"
+2019-05-21 00:34:48,284 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-21 00:34:48,285 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-05-21 00:34:48,285 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-21 00:34:48,286 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-05-21 00:34:48,286 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 >> "{"url":"http://www.facebook.com"}"
+2019-05-21 00:34:51,031 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-21 00:34:51,031 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-05-21 00:34:51,031 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:51,031 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-05-21 00:34:51,032 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "{"sessionId":"037d789d37599e3c9a8962fa4d0f3ff1","status":0,"value":null}"
+2019-05-21 00:34:51,032 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-05-21 00:34:51,033 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Length:72
+2019-05-21 00:34:51,033 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-05-21 00:34:51,033 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-21 00:34:51,034 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:32919] can be kept alive indefinitely
+2019-05-21 00:34:51,035 DEBUG [Forwarding get on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:51,036 FATAL [main] testclass:35 - it is a fatal message
+2019-05-21 00:34:51,036  WARN [main] testclass:36 - it is a warning message
+2019-05-21 00:34:51,043 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAddCookies:122 - CookieSpec selected: default
+2019-05-21 00:34:51,044 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAuthCache:76 - Auth cache not set in the context
+2019-05-21 00:34:51,044 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:51,044 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:32919][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:51,045 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:207 - Stale connection check
+2019-05-21 00:34:51,047 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-05-21 00:34:51,047 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-05-21 00:34:51,047 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:255 - Executing request POST /session/037d789d37599e3c9a8962fa4d0f3ff1/window/current/maximize HTTP/1.1
+2019-05-21 00:34:51,048 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-21 00:34:51,048 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-21 00:34:51,048 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:135 - http-outgoing-1 >> POST /session/037d789d37599e3c9a8962fa4d0f3ff1/window/current/maximize HTTP/1.1
+2019-05-21 00:34:51,048 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-05-21 00:34:51,049 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Content-Length: 45
+2019-05-21 00:34:51,049 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Host: localhost:32919
+2019-05-21 00:34:51,049 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-05-21 00:34:51,050 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-05-21 00:34:51,050 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-05-21 00:34:51,051 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "POST /session/037d789d37599e3c9a8962fa4d0f3ff1/window/current/maximize HTTP/1.1[\r][\n]"
+2019-05-21 00:34:51,052 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:51,052 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Content-Length: 45[\r][\n]"
+2019-05-21 00:34:51,053 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Host: localhost:32919[\r][\n]"
+2019-05-21 00:34:51,053 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-21 00:34:51,053 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-05-21 00:34:51,053 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-21 00:34:51,054 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-05-21 00:34:51,055 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 >> "{"windowHandle":"current","handle":"current"}"
+2019-05-21 00:34:52,215 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-21 00:34:52,215 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-05-21 00:34:52,216 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:52,216 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-05-21 00:34:52,216 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "{"sessionId":"037d789d37599e3c9a8962fa4d0f3ff1","status":0,"value":null}"
+2019-05-21 00:34:52,217 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-05-21 00:34:52,217 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Length:72
+2019-05-21 00:34:52,217 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-05-21 00:34:52,218 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-21 00:34:52,218 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:32919] can be kept alive indefinitely
+2019-05-21 00:34:52,232 DEBUG [Forwarding maximizeCurrentWindow on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:52,233 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAddCookies:122 - CookieSpec selected: default
+2019-05-21 00:34:52,234 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAuthCache:76 - Auth cache not set in the context
+2019-05-21 00:34:52,234 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:52,235 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:32919][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:52,235 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:207 - Stale connection check
+2019-05-21 00:34:52,236 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-05-21 00:34:52,238 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-05-21 00:34:52,240 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:255 - Executing request DELETE /session/037d789d37599e3c9a8962fa4d0f3ff1/cookie HTTP/1.1
+2019-05-21 00:34:52,242 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-21 00:34:52,244 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-21 00:34:52,244 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:135 - http-outgoing-1 >> DELETE /session/037d789d37599e3c9a8962fa4d0f3ff1/cookie HTTP/1.1
+2019-05-21 00:34:52,245 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Host: localhost:32919
+2019-05-21 00:34:52,245 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-05-21 00:34:52,245 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-05-21 00:34:52,245 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-05-21 00:34:52,247 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "DELETE /session/037d789d37599e3c9a8962fa4d0f3ff1/cookie HTTP/1.1[\r][\n]"
+2019-05-21 00:34:52,247 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Host: localhost:32919[\r][\n]"
+2019-05-21 00:34:52,247 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-21 00:34:52,248 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-05-21 00:34:52,248 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-21 00:34:52,249 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-05-21 00:34:53,314 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-21 00:34:53,315 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-05-21 00:34:53,315 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:53,315 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-05-21 00:34:53,316 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "{"sessionId":"037d789d37599e3c9a8962fa4d0f3ff1","status":0,"value":null}"
+2019-05-21 00:34:53,316 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-05-21 00:34:53,316 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Length:72
+2019-05-21 00:34:53,317 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-05-21 00:34:53,317 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-21 00:34:53,317 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:32919] can be kept alive indefinitely
+2019-05-21 00:34:53,318 DEBUG [Forwarding deleteAllCookies on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,321 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAddCookies:122 - CookieSpec selected: default
+2019-05-21 00:34:53,321 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAuthCache:76 - Auth cache not set in the context
+2019-05-21 00:34:53,322 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,322 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:32919][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,322 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:207 - Stale connection check
+2019-05-21 00:34:53,324 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-05-21 00:34:53,324 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-05-21 00:34:53,324 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:255 - Executing request POST /session/037d789d37599e3c9a8962fa4d0f3ff1/timeouts HTTP/1.1
+2019-05-21 00:34:53,324 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-21 00:34:53,324 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-21 00:34:53,325 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:135 - http-outgoing-1 >> POST /session/037d789d37599e3c9a8962fa4d0f3ff1/timeouts HTTP/1.1
+2019-05-21 00:34:53,325 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-05-21 00:34:53,326 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Content-Length: 29
+2019-05-21 00:34:53,326 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Host: localhost:32919
+2019-05-21 00:34:53,326 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-05-21 00:34:53,327 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-05-21 00:34:53,327 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-05-21 00:34:53,327 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "POST /session/037d789d37599e3c9a8962fa4d0f3ff1/timeouts HTTP/1.1[\r][\n]"
+2019-05-21 00:34:53,328 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:53,328 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Content-Length: 29[\r][\n]"
+2019-05-21 00:34:53,328 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Host: localhost:32919[\r][\n]"
+2019-05-21 00:34:53,329 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-21 00:34:53,329 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-05-21 00:34:53,329 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-21 00:34:53,329 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-05-21 00:34:53,330 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 >> "{"type":"implicit","ms":5000}"
+2019-05-21 00:34:53,330 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-21 00:34:53,331 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-05-21 00:34:53,331 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:53,331 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-05-21 00:34:53,332 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "{"sessionId":"037d789d37599e3c9a8962fa4d0f3ff1","status":0,"value":null}"
+2019-05-21 00:34:53,332 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-05-21 00:34:53,333 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Length:72
+2019-05-21 00:34:53,333 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-05-21 00:34:53,333 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-21 00:34:53,334 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:32919] can be kept alive indefinitely
+2019-05-21 00:34:53,334 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,335 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAddCookies:122 - CookieSpec selected: default
+2019-05-21 00:34:53,336 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAuthCache:76 - Auth cache not set in the context
+2019-05-21 00:34:53,336 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,337 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:32919][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,337 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:207 - Stale connection check
+2019-05-21 00:34:53,339 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-05-21 00:34:53,339 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-05-21 00:34:53,339 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:255 - Executing request POST /session/037d789d37599e3c9a8962fa4d0f3ff1/timeouts HTTP/1.1
+2019-05-21 00:34:53,339 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-21 00:34:53,340 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-21 00:34:53,340 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:135 - http-outgoing-1 >> POST /session/037d789d37599e3c9a8962fa4d0f3ff1/timeouts HTTP/1.1
+2019-05-21 00:34:53,340 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-05-21 00:34:53,340 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Content-Length: 30
+2019-05-21 00:34:53,341 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Host: localhost:32919
+2019-05-21 00:34:53,341 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-05-21 00:34:53,341 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-05-21 00:34:53,341 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-05-21 00:34:53,342 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "POST /session/037d789d37599e3c9a8962fa4d0f3ff1/timeouts HTTP/1.1[\r][\n]"
+2019-05-21 00:34:53,342 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:53,343 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Content-Length: 30[\r][\n]"
+2019-05-21 00:34:53,343 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Host: localhost:32919[\r][\n]"
+2019-05-21 00:34:53,343 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-21 00:34:53,343 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-05-21 00:34:53,343 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-21 00:34:53,343 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-05-21 00:34:53,343 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 >> "{"type":"page load","ms":5000}"
+2019-05-21 00:34:53,344 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-21 00:34:53,345 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-05-21 00:34:53,345 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:53,345 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-05-21 00:34:53,345 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "{"sessionId":"037d789d37599e3c9a8962fa4d0f3ff1","status":0,"value":null}"
+2019-05-21 00:34:53,346 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-05-21 00:34:53,346 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Length:72
+2019-05-21 00:34:53,346 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-05-21 00:34:53,347 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-21 00:34:53,347 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:32919] can be kept alive indefinitely
+2019-05-21 00:34:53,347 DEBUG [Forwarding setTimeout on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,352 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAddCookies:122 - CookieSpec selected: default
+2019-05-21 00:34:53,353 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] RequestAuthCache:76 - Auth cache not set in the context
+2019-05-21 00:34:53,353 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,353 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:32919][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,354 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:207 - Stale connection check
+2019-05-21 00:34:53,356 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-05-21 00:34:53,356 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-05-21 00:34:53,356 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:255 - Executing request DELETE /session/037d789d37599e3c9a8962fa4d0f3ff1 HTTP/1.1
+2019-05-21 00:34:53,357 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-05-21 00:34:53,357 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-05-21 00:34:53,357 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:135 - http-outgoing-1 >> DELETE /session/037d789d37599e3c9a8962fa4d0f3ff1 HTTP/1.1
+2019-05-21 00:34:53,357 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Host: localhost:32919
+2019-05-21 00:34:53,357 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-05-21 00:34:53,358 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-05-21 00:34:53,358 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-05-21 00:34:53,358 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "DELETE /session/037d789d37599e3c9a8962fa4d0f3ff1 HTTP/1.1[\r][\n]"
+2019-05-21 00:34:53,358 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Host: localhost:32919[\r][\n]"
+2019-05-21 00:34:53,358 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-05-21 00:34:53,359 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-05-21 00:34:53,359 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-05-21 00:34:53,359 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-05-21 00:34:53,483 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-05-21 00:34:53,483 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-05-21 00:34:53,484 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-05-21 00:34:53,484 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-05-21 00:34:53,484 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] wire:86 - http-outgoing-1 << "{"sessionId":"037d789d37599e3c9a8962fa4d0f3ff1","status":0,"value":null}"
+2019-05-21 00:34:53,485 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-05-21 00:34:53,485 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Length:72
+2019-05-21 00:34:53,485 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-05-21 00:34:53,486 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] MainClientExec:284 - Connection can be kept alive indefinitely
+2019-05-21 00:34:53,486 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:32919] can be kept alive indefinitely
+2019-05-21 00:34:53,486 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:32919][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-05-21 00:34:53,487 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 0 SECONDS
+2019-05-21 00:34:53,488 DEBUG [Forwarding quit on session 037d789d37599e3c9a8962fa4d0f3ff1 to remote] DefaultManagedHttpClientConnection:81 - http-outgoing-1: Close connection
