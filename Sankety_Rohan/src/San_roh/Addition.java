@@ -7,6 +7,8 @@ public class Addition {
 		System.out.println("hello");
 		System.out.println("hello1");
 		
+	         System.out.print("heheheheheheh");
+		
 	}
 
 }
