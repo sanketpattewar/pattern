@@ -7,6 +7,8 @@ public class Shrikant {
 		
 		System.err.println();
 		System.out.println();
+		
+		System.out.prin("hello shrikant");
 	}
 	
 	
