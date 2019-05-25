@@ -14,7 +14,7 @@ public class Excelhandle8 {
 WebDriver driver ;
 	
 	@DataProvider(name="abc")
-	public Object[][] gettingdata() throws IOException {
+	public static Object[][] gettingdata() throws IOException {
 		
 		Object[][]data =Excelhandle7.testdata("sheet1");
 		return data ;
